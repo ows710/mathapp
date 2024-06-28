@@ -1,0 +1,17 @@
+.menuButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menuButton:hover {
+  background-color: #005bb5;
+  color: #eaeaea;
+}
+  

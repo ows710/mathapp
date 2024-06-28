@@ -1,0 +1,112 @@
+.setsContainer {
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.set {
+  position: relative;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  height: 100px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.selectedSet {
+  border-color: #0070f3;
+  background-color: #e0f7fa;
+}
+
+.highlightedSet {
+  background-color: #0070f3;
+  color: white;
+}
+
+.deleteButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.inputField,
+.selectField {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputField {
+  width: 300px;
+  height: 40px; /* 높이 조정 */
+}
+
+.selectField {
+  flex: 1;
+  max-width: 200px;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0053b3;
+}
+
+.result {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.resultText {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.error {
+  background-color: #ffcccc;
+  color: red;
+}
+
+.success {
+  background-color: #ccffcc;
+  color: green;
+}

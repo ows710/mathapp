@@ -1,0 +1,75 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+  color: orange;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.link {
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 0.3rem solid #0070f3;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  transition: border-color 0.15s ease, color 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  border-color: red;
+  color: red;
+}
+
+.calculator {
+  background-image: url('/images/arithmetic.png');
+}
+
+.shapes {
+  background-image: url('/images/shapes.png');
+}
+
+.matrix {
+  background-image: url('/images/matrix.png');
+}
+
+.sets {
+  background-image: url('/images/sets.png');
+}
